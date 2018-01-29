@@ -26,18 +26,22 @@ const Footer = () => {
                <div class="col l4 offset-l2 s12">
                  <h5 class="white-text">I want to . . . </h5>
                  <ul>
-                   <li><a class="grey-text text-lighten-3" href="./JobSearch.html">Find a job</a></li>
-                   <li><a class="grey-text text-lighten-3" href="./WorkerSearch.html">Find talent</a></li>
-                   <li><a class="grey-text text-lighten-3" href="./SignUp.html">Login</a></li>
-                   <li><a class="grey-text text-lighten-3" href="./SignUp.html">Sign Up</a></li>
+                   <li><a class="grey-text text-lighten-3" href="/JobSearch">Find a job</a></li>
+                   <li><a class="grey-text text-lighten-3" href="/WorkerSearch">Find talent</a></li>
+                   <li><a class="grey-text text-lighten-3" href="/SignUp">Login</a></li>
+                   <li><a class="grey-text text-lighten-3" href="/SignUp">Sign Up</a></li>
                  </ul>
+                 <br/>
+                 <br/>
+                 <br/>
+                              <a class="grey-text text-lighten-4 right" href="https://unsplash.com/@andersjilden">         Photo by Anders Jildén on Unsplash</a>
                </div>
              </div>
            </div>
            <div class="footer-copyright">
              <div class="container">
-             © 2018 Copyright Continuum Legal
-             <a class="grey-text text-lighten-4 right" href="#!">Photo by Anders Jildén on Unsplash</a>
+             © 2018 Copyright
+
              </div>
            </div>
          </Alert>

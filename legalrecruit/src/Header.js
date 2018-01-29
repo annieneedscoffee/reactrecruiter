@@ -17,7 +17,7 @@ CardImg,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  DropdownItem, Media } from 'reactstrap';
 
 class Header extends Component{
   constructor(props) {
@@ -39,6 +39,9 @@ render(){
     <Jumbotron>
       <Navbar color="faded" light expand="md">
           <NavbarBrand href="/LandingPage">Continuum Legal</NavbarBrand>
+    
+
+
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -48,23 +51,12 @@ render(){
               <NavItem>
                 <NavLink href="/WorkerSearch">Talent Seekers</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Options
-                </DropdownToggle>
-                <DropdownMenu >
-                  <DropdownItem>
-                    Login
-                  </DropdownItem>
-                  <DropdownItem>
-                    Sign Up
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Contact
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+              <NavItem>
+                <NavLink href="/SignUp">Login</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/SignUp">Sign Up</NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
